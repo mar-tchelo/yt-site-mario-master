@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Porcentagem</title>
+    <link rel="stylesheet" href="styles/global.css">
+  
+</head>
+<body>
+    <div class="calculadora">
+        <h1>Calculadora de Porcentagem</h1>
+        <input type="number" id="porcentagem" placeholder="Porcentual %" required>
+        <span>De</span>
+        <input type="number" id="valor" placeholder="valor" required>
+        <button id="calcular" onclick="calcularPorcentagem()">Calcular</button>
+        <button id="resetar" onclick="resetarCampos()" style="display: none;">Resetar</button>
+        <p id="resultado"></p>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
